@@ -1,7 +1,7 @@
 ﻿using mini_blockchain.Services;
 using System.Security.Cryptography;
 
-Console.WriteLine(" MINI BLOCKCHAIN CON FIRMA DIGITAL ===\n");
+Console.WriteLine(" MINI BLOCKCHAIN CON FIRMA DIGITAL \n");
 
 // 1. Generate RSA keys
 using RSA rsa = RSA.Create(2048);
