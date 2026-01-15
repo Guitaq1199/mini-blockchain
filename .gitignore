@@ -52,3 +52,19 @@ CodeCoverage/
 *.VisualState.xml
 TestResult.xml
 nunit-*.xml
+
+# Visual Studio habitual
+.vs/
+[Dd]ebug/
+[Rr]elease/
+*.user
+*.userosscache
+*.sln.docstates
+
+# Archivos específicos de VS 2022 / .slnx
+.vsidx/
+*.suo
+DocumentLayout.json
+
+# Copilot e índices de búsqueda
+.vs/**/CopilotIndices/
